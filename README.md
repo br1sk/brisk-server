@@ -18,9 +18,9 @@ Content-Type: application/json
 }
 ```
 
- - _apple_id_: Username to be used on `bugreport.apple.com`
+ - **apple_id**: Username to be used on `bugreport.apple.com`
    authentication.
- - _password_: Password to be used on `bugreport.apple.com`
+ - **password**: Password to be used on `bugreport.apple.com`
    authentication.
 
 Response
@@ -65,19 +65,19 @@ Content-Type: application/json
 }
 ```
 
- - _product_: Select a product from the list below.
- - _classification_: The type of problem (see below for available options).
- - _reproducibility_: How often the problem occurs (see below for available
+ - **product**: Select a product from the list below.
+ - **classification**: The type of problem (see below for available options).
+ - **reproducibility**: How often the problem occurs (see below for available
    options).
- - _title_: A short but descriptive sentence that summarizes the issue.
- - _description_: A detailed description about the issue and include
+ - **title**: A short but descriptive sentence that summarizes the issue.
+ - **description**: A detailed description about the issue and include
    specific details to help the engineering team understand the problem.
- - _steps_: The step by step process to reproduce the issue.
- - _expected_: What you expected to see.
- - _actual_: What you actually saw.
- - _configuration_: The circumstances where this does or does not occur.
- - _version_: Product version and build number.
- - _notes_: Any other relevant notes not previously mentioned.
+ - **steps**: The step by step process to reproduce the issue.
+ - **expected**: What you expected to see.
+ - **actual**: What you actually saw.
+ - **configuration**: The circumstances where this does or does not occur.
+ - **version**: Product version and build number.
+ - **notes**: Any other relevant notes not previously mentioned.
 
 
 Response
@@ -102,7 +102,7 @@ Request
 
 ```json
 GET /types HTTP/1.1
-Host: api.radar.com
+Host: radar.fzed.io
 ```
 
 Response
