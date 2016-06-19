@@ -1,0 +1,308 @@
+- fields:
+    apple_id: 579020
+    category: OS and Development
+    identifier: ios
+    name: iOS
+  model: api.product
+  pk: 1
+- fields:
+    apple_id: 584784
+    category: OS and Development
+    identifier: iossdk
+    name: iOS SDK
+  model: api.product
+  pk: 2
+- fields:
+    apple_id: 137701
+    category: OS and Development
+    identifier: osx
+    name: OS X
+  model: api.product
+  pk: 3
+- fields:
+    apple_id: 430026
+    category: OS and Development
+    identifier: osxsdk
+    name: OS X SDK
+  model: api.product
+  pk: 4
+- fields:
+    apple_id: 84100
+    category: OS and Development
+    identifier: osxserver
+    name: OS X Server
+  model: api.product
+  pk: 5
+- fields:
+    apple_id: 660932
+    category: OS and Development
+    identifier: tvos
+    name: tvOS
+  model: api.product
+  pk: 6
+- fields:
+    apple_id: 662000
+    category: OS and Development
+    identifier: tvossdk
+    name: tvOS SDK
+  model: api.product
+  pk: 7
+- fields:
+    apple_id: 645251
+    category: OS and Development
+    identifier: watchos
+    name: watchOS
+  model: api.product
+  pk: 8
+- fields:
+    apple_id: 645445
+    category: OS and Development
+    identifier: watchossdk
+    name: watchOS SDK
+  model: api.product
+  pk: 9
+- fields:
+    apple_id: 175326
+    category: OS and Development
+    identifier: developertools
+    name: Developer Tools
+  model: api.product
+  pk: 10
+- fields:
+    apple_id: 183045
+    category: OS and Development
+    identifier: documentation
+    name: Documentation
+  model: api.product
+  pk: 11
+- fields:
+    apple_id: 500515
+    category: OS and Development
+    identifier: itunesconnect
+    name: iTunes Connect
+  model: api.product
+  pk: 12
+- fields:
+    apple_id: 720650
+    category: OS and Development
+    identifier: parallaxpreviewer
+    name: Parallax Previewer
+  model: api.product
+  pk: 13
+- fields:
+    apple_id: 205728
+    category: OS and Development
+    identifier: samplecode
+    name: Sample Code
+  model: api.product
+  pk: 14
+- fields:
+    apple_id: 385563
+    category: OS and Development
+    identifier: technote/q&a
+    name: Tech Note/Q&A
+  model: api.product
+  pk: 15
+- fields:
+    apple_id: 571983
+    category: Applications and Software
+    identifier: ibooks
+    name: iBooks
+  model: api.product
+  pk: 16
+- fields:
+    apple_id: 458288
+    category: Applications and Software
+    identifier: icloud
+    name: iCloud
+  model: api.product
+  pk: 17
+- fields:
+    apple_id: 445858
+    category: Applications and Software
+    identifier: ilife
+    name: iLife
+  model: api.product
+  pk: 18
+- fields:
+    apple_id: 430173
+    category: Applications and Software
+    identifier: itunes
+    name: iTunes
+  model: api.product
+  pk: 19
+- fields:
+    apple_id: 372025
+    category: Applications and Software
+    identifier: iwork
+    name: iWork
+  model: api.product
+  pk: 20
+- fields:
+    apple_id: 372031
+    category: Applications and Software
+    identifier: mail
+    name: Mail
+  model: api.product
+  pk: 21
+- fields:
+    apple_id: 175412
+    category: Applications and Software
+    identifier: proapps
+    name: Pro Apps
+  model: api.product
+  pk: 22
+- fields:
+    apple_id: 84201
+    category: Applications and Software
+    identifier: quicktime
+    name: QuickTime
+  model: api.product
+  pk: 23
+- fields:
+    apple_id: 175305
+    category: Applications and Software
+    identifier: safari
+    name: Safari
+  model: api.product
+  pk: 24
+- fields:
+    apple_id: 697770
+    category: Applications and Software
+    identifier: safaritechnologypreview
+    name: Safari Technology Preview
+  model: api.product
+  pk: 25
+- fields:
+    apple_id: 750751
+    category: Applications and Software
+    identifier: siri
+    name: Siri
+  model: api.product
+  pk: 26
+- fields:
+    apple_id: 743970
+    category: Applications and Software
+    identifier: swiftplaygrounds
+    name: Swift Playgrounds
+  model: api.product
+  pk: 27
+- fields:
+    apple_id: 430025
+    category: Hardware
+    identifier: appletv
+    name: Apple TV
+  model: api.product
+  pk: 28
+- fields:
+    apple_id: 375383
+    category: Hardware
+    identifier: ipad
+    name: iPad
+  model: api.product
+  pk: 29
+- fields:
+    apple_id: 262954
+    category: Hardware
+    identifier: iphone/ipodtouch
+    name: iPhone/iPod touch
+  model: api.product
+  pk: 30
+- fields:
+    apple_id: 185585
+    category: Hardware
+    identifier: ipod
+    name: iPod
+  model: api.product
+  pk: 31
+- fields:
+    apple_id: 213680
+    category: Hardware
+    identifier: mac
+    name: Mac
+  model: api.product
+  pk: 32
+- fields:
+    apple_id: 213679
+    category: Hardware
+    identifier: printing/fax
+    name: Printing/Fax
+  model: api.product
+  pk: 33
+- fields:
+    apple_id: 657117
+    category: Hardware
+    identifier: otherhardware
+    name: Other Hardware
+  model: api.product
+  pk: 34
+- fields:
+    apple_id: 571212
+    category: Hardware
+    identifier: carplayaccessorycertification
+    name: CarPlay Accessory Certification
+  model: api.product
+  pk: 35
+- fields:
+    apple_id: 601986
+    category: Hardware
+    identifier: homekitaccessorycertification
+    name: HomeKit Accessory Certification
+  model: api.product
+  pk: 36
+- fields:
+    apple_id: 437784
+    category: Other
+    identifier: accessibility
+    name: Accessibility
+  model: api.product
+  pk: 37
+- fields:
+    apple_id: 251822
+    category: Other
+    identifier: appstore
+    name: App Store
+  model: api.product
+  pk: 38
+- fields:
+    apple_id: 430023
+    category: Other
+    identifier: macappstore
+    name: Mac App Store
+  model: api.product
+  pk: 39
+- fields:
+    apple_id: 242322
+    category: Other
+    identifier: bugreporter
+    name: Bug Reporter
+  model: api.product
+  pk: 40
+- fields:
+    apple_id: 445860
+    category: Other
+    identifier: iadnetwork
+    name: iAd Network
+  model: api.product
+  pk: 41
+- fields:
+    apple_id: 446084
+    category: Other
+    identifier: iadproducer
+    name: iAd Producer
+  model: api.product
+  pk: 42
+- fields:
+    apple_id: 84060
+    category: Other
+    identifier: java
+    name: Java
+  model: api.product
+  pk: 43
+- fields:
+    apple_id: 20206
+    category: Other
+    identifier: other
+    name: Other
+  model: api.product
+  pk: 44

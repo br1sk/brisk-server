@@ -1,0 +1,306 @@
+- model: api.area
+  pk: 1
+  fields:
+    apple_id: 1
+    name: Accessibility
+    identifier: accessibility
+- model: api.area
+  pk: 2
+  fields:
+    apple_id: 2
+    name: APNS (Notifications)
+    identifier: apns
+- model: api.area
+  pk: 3
+  fields:
+    apple_id: 3
+    name: App Switcher
+    identifier: appswitcher
+- model: api.area
+  pk: 4
+  fields:
+    apple_id: 4
+    name: AVFoundation (Audio / Video)
+    identifier: avfoundation
+- model: api.area
+  pk: 5
+  fields:
+    apple_id: 5
+    name: Battery Life
+    identifier: battery
+- model: api.area
+  pk: 6
+  fields:
+    apple_id: 6
+    name: Bluetooth
+    identifier: bluetooth
+- model: api.area
+  pk: 7
+  fields:
+    apple_id: 7
+    name: Calendar
+    identifier: calendar
+- model: api.area
+  pk: 8
+  fields:
+    apple_id: 8
+    name: CarPlay
+    identifier: carplay
+- model: api.area
+  pk: 9
+  fields:
+    apple_id: 9
+    name: Cellular Service (Calls / Data)
+    identifier: cellular
+- model: api.area
+  pk: 10
+  fields:
+    apple_id: 10
+    name: CloudKit (iCloud)
+    identifier: cloudkit
+- model: api.area
+  pk: 11
+  fields:
+    apple_id: 11
+    name: Contacts
+    identifier: contacts
+- model: api.area
+  pk: 12
+  fields:
+    apple_id: 12
+    name: Control Center
+    identifier: controlcenter
+- model: api.area
+  pk: 13
+  fields:
+    apple_id: 13
+    name: CoreLocation (Location Services)
+    identifier: corelocation
+- model: api.area
+  pk: 14
+  fields:
+    apple_id: 14
+    name: Device Management / Profiles
+    identifier: devicemanagement
+- model: api.area
+  pk: 15
+  fields:
+    apple_id: 15
+    name: Facetime
+    identifier: facetime
+- model: api.area
+  pk: 16
+  fields:
+    apple_id: 16
+    name: GameKit
+    identifier: gamekit
+- model: api.area
+  pk: 17
+  fields:
+    apple_id: 17
+    name: HealthKit
+    identifier: healthkit
+- model: api.area
+  pk: 18
+  fields:
+    apple_id: 18
+    name: HomeKit
+    identifier: homekit
+- model: api.area
+  pk: 19
+  fields:
+    apple_id: 19
+    name: iPod Accessory Protocol (AP)
+    identifier: ipodaccessory
+- model: api.area
+  pk: 20
+  fields:
+    apple_id: 20
+    name: iTunes Connect
+    identifier: itunesconnect
+- model: api.area
+  pk: 21
+  fields:
+    apple_id: 21
+    name: iTunes Store
+    identifier: itunesstore
+- model: api.area
+  pk: 22
+  fields:
+    apple_id: 22
+    name: Keyboard
+    identifier: keyboard
+- model: api.area
+  pk: 23
+  fields:
+    apple_id: 23
+    name: Lock Screen
+    identifier: lockscreen
+- model: api.area
+  pk: 24
+  fields:
+    apple_id: 24
+    name: Mail
+    identifier: mail
+- model: api.area
+  pk: 25
+  fields:
+    apple_id: 25
+    name: MapKit
+    identifier: mapkit
+- model: api.area
+  pk: 26
+  fields:
+    apple_id: 26
+    name: Messages
+    identifier: messages
+- model: api.area
+  pk: 27
+  fields:
+    apple_id: 27
+    name: Metal
+    identifier: metal
+- model: api.area
+  pk: 28
+  fields:
+    apple_id: 28
+    name: Music
+    identifier: music
+- model: api.area
+  pk: 29
+  fields:
+    apple_id: 29
+    name: Night Shift
+    identifier: nightshift
+- model: api.area
+  pk: 30
+  fields:
+    apple_id: 30
+    name: Notes
+    identifier: notes
+- model: api.area
+  pk: 31
+  fields:
+    apple_id: 31
+    name: Notification Center
+    identifier: notificationcenter
+- model: api.area
+  pk: 32
+  fields:
+    apple_id: 32
+    name: NSURL
+    identifier: nsurl
+- model: api.area
+  pk: 33
+  fields:
+    apple_id: 33
+    name: Phone App
+    identifier: phoneapp
+- model: api.area
+  pk: 34
+  fields:
+    apple_id: 34
+    name: Photos
+    identifier: photos
+- model: api.area
+  pk: 35
+  fields:
+    apple_id: 35
+    name: Reminders
+    identifier: reminders
+- model: api.area
+  pk: 36
+  fields:
+    apple_id: 36
+    name: Safari Services
+    identifier: safariservices
+- model: api.area
+  pk: 37
+  fields:
+    apple_id: 37
+    name: SceneKit
+    identifier: scenekit
+- model: api.area
+  pk: 38
+  fields:
+    apple_id: 38
+    name: Setup Assistant
+    identifier: setupassistant
+- model: api.area
+  pk: 39
+  fields:
+    apple_id: 39
+    name: Software Update
+    identifier: softwareupdate
+- model: api.area
+  pk: 40
+  fields:
+    apple_id: 40
+    name: Spotlight
+    identifier: spotlight
+- model: api.area
+  pk: 41
+  fields:
+    apple_id: 41
+    name: SpringBorad (Home Screen)
+    identifier: springboard
+- model: api.area
+  pk: 42
+  fields:
+    apple_id: 42
+    name: SpriteKit
+    identifier: spritekit
+- model: api.area
+  pk: 43
+  fields:
+    apple_id: 43
+    name: StoreKit
+    identifier: storekit
+- model: api.area
+  pk: 44
+  fields:
+    apple_id: 44
+    name: System Slow/Unresponsive
+    identifier: systemunresponsive
+- model: api.area
+  pk: 45
+  fields:
+    apple_id: 45
+    name: TouchID
+    identifier: touchid
+- model: api.area
+  pk: 46
+  fields:
+    apple_id: 46
+    name: UIKit
+    identifier: uikit
+- model: api.area
+  pk: 47
+  fields:
+    apple_id: 47
+    name: VPN
+    identifier: vpn
+- model: api.area
+  pk: 48
+  fields:
+    apple_id: 48
+    name: WebKit
+    identifier: webkit
+- model: api.area
+  pk: 49
+  fields:
+    apple_id: 49
+    name: Wi-Fi
+    identifier: wifi
+- model: api.area
+  pk: 50
+  fields:
+    apple_id: 50
+    name: Xcode
+    identifier: xcode
+- model: api.area
+  pk: 51
+  fields:
+    apple_id: 51
+    name: Other area
+    identifier: other

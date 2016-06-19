@@ -1,0 +1,54 @@
+- model: api.classification
+  pk: 1
+  fields:
+    identifier: security
+    name: Security
+    apple_id: 1
+- model: api.classification
+  pk: 2
+  fields:
+    identifier: crash
+    name: Crash/Hang/Data Loss
+    apple_id: 2
+- model: api.classification
+  pk: 3
+  fields:
+    identifier: power
+    name: Power
+    apple_id: 3
+- model: api.classification
+  pk: 4
+  fields:
+    identifier: peformance
+    name: Performance
+    apple_id: 4
+- model: api.classification
+  pk: 5
+  fields:
+    identifier: uiux
+    name: UI/Usability
+    apple_id: 5
+- model: api.classification
+  pk: 6
+  fields:
+    identifier: seriousbug
+    name: Serious Bug
+    apple_id: 7
+- model: api.classification
+  pk: 7
+  fields:
+    identifier: otherbug
+    name: Other Bug
+    apple_id: 8
+- model: api.classification
+  pk: 8
+  fields:
+    identifier: newfeature
+    name: Feature (New)
+    apple_id: 10
+- model: api.classification
+  pk: 9
+  fields:
+    identifier: enhancement
+    name: Enhancement
+    apple_id: 11

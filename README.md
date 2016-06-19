@@ -1,27 +1,34 @@
 Login
 =====
 
+Authenticates apple_id and password at `bugreport.apple.com`, apple IDs
+or passwords will not be stored.
+
 Request
 -------
 
 ```json
-POST /token HTTP/1.1
-Host: api.radar.com
+POST /login HTTP/1.1
+Host: radar.fzed.io
 Content-Type: application/json
 
 {
-    "appleid": "fz",
+    "apple_id": "fz",
     "password": "app1e"
 }
 ```
+
+ - _apple_id_: Username to be used on `bugreport.apple.com`
+   authentication.
+ - _password_: Password to be used on `bugreport.apple.com`
+   authentication.
 
 Response
 --------
 
 ```json
 {
-    "authentication_token": "cacacacacacacacaca",
-    "expiration": "2016-06-21T00:00:00+00:00",
+    "token": "cacacacacacacacaca",
     "error": "",
     "status": "success|failure"
 }
@@ -30,13 +37,16 @@ Response
 New radar
 =========
 
+Creates a new ticket into apple's radar. Authentication is done via the
+`Authorization` header.
+
 Request
 -------
 
 ```json
 POST /radar HTTP/1.1
-Host: api.radar.com
-Authorize: "authentication_token=cacacacacacacacaca"
+Host: radar.fzed.io
+Authorization: cacacacacacacacaca
 Content-Type: application/json
 
 {
@@ -55,22 +65,37 @@ Content-Type: application/json
 }
 ```
 
- - *product*: Select a product from the list below.
- - *classification*: The type of problem (see below for available options).
- - *reproducibility*: How often the problem occurs (see below for available 
+ - _product_: Select a product from the list below.
+ - _classification_: The type of problem (see below for available options).
+ - _reproducibility_: How often the problem occurs (see below for available
    options).
- - *title*: A short but descriptive sentence that summarizes the issue.
- - *description*: A detailed description about the issue and include specific 
-   details to help the engineering team understand the problem.
- - *steps*: The step by step process to reproduce the issue.
- - *expected*: What you expected to see.
- - *actual*: What you actually saw.
- - *configuration*: The circumstances where this does or does not occur.
- - *version*: Product version and build number.
- - *notes*: Any other relevant notes not previously mentioned.
+ - _title_: A short but descriptive sentence that summarizes the issue.
+ - _description_: A detailed description about the issue and include
+   specific details to help the engineering team understand the problem.
+ - _steps_: The step by step process to reproduce the issue.
+ - _expected_: What you expected to see.
+ - _actual_: What you actually saw.
+ - _configuration_: The circumstances where this does or does not occur.
+ - _version_: Product version and build number.
+ - _notes_: Any other relevant notes not previously mentioned.
+
+
+Response
+--------
+
+```json
+{
+    "radar_id": "123447",
+    "error": "",
+    "status": "success|failure"
+}
+```
 
 Types
 =====
+
+Returns all the type display names along with identifier to be used when
+creating a radar.
 
 Request
 -------
@@ -85,153 +110,9 @@ Response
 
 ```json
 {
-    "products": [{"id": "ios"}],
-    "classification": [],
-    "reproducibility": [],
-    "area": []
-}
-```
-
-## Products
-
-### OS and development
-
- - ios
- - iossdk
- - macos
- - macossdk
- - macosserver
- - tvos
- - tvossdk
- - watchos
- - watchossdk
- - tools
- - documentation
- - itunesconnect
- - parallaxpreviewer
- - samplecode
- - technote
-
-### Applications and software
-
- - ibooks
- - icloud
- - ilife
- - itunes
- - iwork
- - mail
- - proapps
- - quicktime
- - safari
- - safaripreview
- - siri
- - swiftplaygrounds
-
-### Hardware
-
- - appletv
- - ipad
- - iphone
- - ipod
- - mac
- - printing
- - otherhardware
- - carplayaccessory
- - homekitaccessory
-
-### Other
-
- - accessibility
- - appstore
- - macappstore
- - bugreporter
- - iad
- - iadproducer
- - java
- - other
-
-## Classification
-
- - security
- - crash
- - power
- - peformance
- - uiux
- - seriousbug
- - otherbug
- - newfeature
- - enhancement
-
-## Reproducibility
-
- - always
- - sometimes
- - rarely
- - unable
- - didnttry
- - notapplicable
-
-## Area
-
- - accessibility
- - apns
- - appswitcher
- - avfoundation
- - battery
- - bluetooth
- - calendar
- - carplay
- - cellular
- - cloudkit
- - contacts
- - controlcenter
- - corelocation
- - devicemanagement
- - facetime
- - gamekit
- - healthkit
- - homekit
- - ipodaccessory
- - itunesconnect
- - itunesstore
- - keyboard
- - lockscreen
- - mail
- - mapkit
- - messages
- - metal
- - music
- - nightshift
- - notes
- - notificationcenter
- - nsurl
- - phoneapp
- - photos
- - reminders
- - safariservices
- - scenekit
- - setupassistant
- - softwareupdate
- - spotlight
- - springboard
- - spritekit
- - storekit
- - systemunresposive
- - touchid
- - uikit
- - vpn
- - webkit
- - wifi
- - xcode
- - other
-
-Response
---------
-
-```json
-{
-    "radar_id": "123447",
-    "error": "",
-    "status": "success|failure"
+    "products": [{"id": "ios", "name": "iOS", "category": "OS and Development"}],
+    "classifications": [],
+    "reproducibilities": [],
+    "areas": []
 }
 ```

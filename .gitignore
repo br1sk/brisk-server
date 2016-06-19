@@ -1,0 +1,6 @@
+*.egg-info
+*.pot
+*.py[co]
+
+settings.py
+db.sqlite3

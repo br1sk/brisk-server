@@ -1,0 +1,36 @@
+- model: api.reproducibility
+  pk: 1
+  fields:
+    apple_id: 1
+    name: Always
+    identifier: always
+- model: api.reproducibility
+  pk: 2
+  fields:
+    apple_id: 2
+    name: Sometimes
+    identifier: sometimes
+- model: api.reproducibility
+  pk: 3
+  fields:
+    apple_id: 3
+    name: Rarely
+    identifier: rarely
+- model: api.reproducibility
+  pk: 4
+  fields:
+    apple_id: 4
+    name: Unable
+    identifier: unable
+- model: api.reproducibility
+  pk: 5
+  fields:
+    apple_id: 5
+    name: I didn't try
+    identifier: didnttry
+- model: api.reproducibility
+  pk: 6
+  fields:
+    apple_id: 6
+    name: Not Applicable
+    identifier: notapplicable

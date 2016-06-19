@@ -1,0 +1,48 @@
+curl \
+    -d "product=ios"\
+    -d "classification=seriousbug"\
+    -d "reproducibility=always"\
+    -d "area=uikit"\
+    -d "title=UIKit is broken"\
+    -d "description=Everything is broken when using iOS"\
+    -d "steps=1. Hold your phone\n2. Unlock it"\
+    -d "expected=Everything should not be broken"\
+    -d "actual=Stuff is broken"\
+    -d "configuration=Every version of iOS"\
+    -d "version=iPhone 2+"\
+    -d "notes=Did I mention everything is broken?"\
+    http://127.0.0.1/radar
+
+
+
+
+
+
+from api.radar import Radar, BugReporter
+from api.models import *
+
+product = Product.objects.get(identifier="ios")
+reproducibility = Reproducibility.objects.get(identifier="always")
+classification = Classification.objects.get(identifier="power")
+area = Area.objects.get(identifier="uikit")
+
+radar = Radar()
+radar.classification = classification
+radar.product = product
+radar.reproducibility = reproducibility
+radar.area = area
+radar.title = "Test"
+radar.description = "Test1"
+radar.steps = "Test2"
+radar.expected = "Test3"
+radar.actual = "Test4"
+radar.configuration = "Test5"
+radar.version = "Test6"
+radar.notes = "Test7"
+
+reporter = BugReporter()
+cookie = reporter.login("keithkeith886@gmail.com", "2300Harrison")
+try:
+    reporter.create_radar(radar)
+except Exception, e:
+    print e.read()
