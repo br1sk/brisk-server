@@ -1,0 +1,4 @@
+mechanize==0.2.5
+BeautifulSoup==3.2.1
+MultipartPostHandler==0.1.0
+Django==1.8.5
